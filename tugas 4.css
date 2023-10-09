@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 80%;
+    image-resolution: 80%;
+}
+body {
+    background-image: url(https://img.freepik.com/free-photo/view-white-crumpled-paper_1194-7544.jpg?w=740&t=st=1696849834~exp=1696850434~hmac=74773f8799f44e3d9f9f759aa84c9984acffd8554e4ccbc451bafbbdb8f13eee);
+    background-size: cover;
+}
+h1 {
+    color: rgb(53, 37, 19);
+    text-align: center;
+    margin: 40px 30px;
+}
+h2 {
+    color:#445D48;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-width: 5px;
+    border-color: #B2533E;
+    border-style: solid;
+}
+p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 900px;
+}
+d1 {
+    line-height: 30px;
+}
+dt {
+    font-family: 'Lucida Sans';
+    background-color: #9A3B3B;
+    color: antiquewhite;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 5px;
+}
+dd {
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    padding: 10px;
+    box-sizing:border-box;
+    background-color: #C08261;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-indent: 40px;
+    text-align: justify;
+}
+a {
+    color: blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    padding: 20px;
+}
+.biografisingkat {
+    width: 500px;
+    margin: 30px auto;
+}
+d1 img {
+    background-color: #9A3B3B;
+    width: 200px;
+    /*border-top-left-radius: 50px;*/
+    border-radius: 100px;
+    float: left;
+    /*margin-top: 10px;
+    margin-right: 20px;*/
+    margin: 10px 20px 10px 0px;
+    padding: 10px;
+}
+.clear {
+    clear: center;
+}
+.footer {
+    margin-left: 100px;
+    text-align: center;
+}
