@@ -1,81 +1,75 @@
-* {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    background-color: #A8DF8E;
+*{
+    margin: 0;
+    padding: 0;
 }
 img {
- align-items: center;
- justify-content: center;
- width: 400px;
- height: 400px;
+    width: 80%;
+    image-resolution: 80%;
+}
+body {
+    background-image: url(https://img.freepik.com/free-photo/view-white-crumpled-paper_1194-7544.jpg?w=740&t=st=1696849834~exp=1696850434~hmac=74773f8799f44e3d9f9f759aa84c9984acffd8554e4ccbc451bafbbdb8f13eee);
+    background-size: cover;
 }
 h1 {
-    text-decoration: dashed;
-    font-family: 'Helvetica';
-    font-size: 50px;
-    font-weight: 800;
+    color: rgb(53, 37, 19);
     text-align: center;
-    color:#D2DE32;
+    margin: 40px 30px;
 }
 h2 {
-    font-family: 'comic sans ms';
+    color:#445D48;
     font-size: 25px;
+    font-weight: bold;
     text-align: center;
+    border-width: 5px;
+    border-color: #B2533E;
     border-style: solid;
-    border-color: #FF8080;
-    border-radius: 20px;
-    clear: both;
 }
 p {
-    font-family: 'fantasy';
-    font-size: 25px;
+    font-family: monospace;
+    font-size: 20px;
     text-align: justify;
-    width: 900px;
-    padding: 20px;
-    margin: 30px auto;
     line-height: 30px;
-    background-color: bisque;
-    clear: both;
+    margin: 30px auto;
+    padding: 20px;
+    width: 900px;
 }
 d1 {
     line-height: 30px;
 }
 dt {
     font-family: 'Lucida Sans';
-    background-color: rgb(133, 113, 88);
+    background-color: #9A3B3B;
+    color: antiquewhite;
     font-size: 18px;
     font-weight: bold;
     margin-top: 30px;
     padding: 5px;
 }
 dd {
-    background-color: rgb(246, 233, 200);
-    font-family: monospace;
-    font-size: 18px;
-    text-indent: 40px;
-    text-align: justify;
     width: 100%;
     height: 100%;
     line-height: 30px;
     padding: 10px;
     box-sizing:border-box;
+    background-color: #C08261;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-indent: 40px;
+    text-align: justify;
 }
 a {
-    color: black;
+    color: blue;
     text-decoration: underline;
     text-transform: capitalize;
     line-height: 30px;
     padding: 20px;
 }
-.macam-macamminumansehat {
+.biografisingkat {
     width: 500px;
     margin: 30px auto;
 }
 d1 img {
-    background-color: beige;
+    background-color: #9A3B3B;
     width: 200px;
     /*border-top-left-radius: 50px;*/
     border-radius: 100px;
@@ -90,5 +84,5 @@ d1 img {
 }
 .footer {
     margin-left: 100px;
-    text-align: center;
+    text-align: center;
 }
